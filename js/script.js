@@ -14,8 +14,6 @@ var listacognomi = ['Zanella','Verdi','Neri','Bossi','Alfonsi'];
 
 listacognomi.push(usersurname);
 
-document.getElementById("output").innerHTML = listacognomi;
-
 listacognomi.sort();
 
 document.getElementById("output").innerHTML = listacognomi;
