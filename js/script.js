@@ -16,9 +16,8 @@ listacognomi.push(usersurname);
 
 document.getElementById("output").innerHTML = listacognomi;
 
-function myFunction() { 
-  listacognomi.sort();
-  document.getElementById("output").innerHTML = listacognomi;
-}
+listacognomi.sort();
+
+document.getElementById("output").innerHTML = listacognomi;
 
 
