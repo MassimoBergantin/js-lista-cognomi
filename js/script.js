@@ -19,3 +19,6 @@ listacognomi.sort();
 document.getElementById("output").innerHTML = listacognomi;
 
 
+for (var i = 0; i <= listacognomi.length; i ++); {
+    document.getElementById("output").innerHTML = listacognomi;   
+}
